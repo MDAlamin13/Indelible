@@ -1,0 +1,84 @@
+
+
+IMPORTANT WARNING: Sequences 93 and 82 are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file t10.seq.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 76 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 76
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -p 81535 -m GTRCAT -s t10.seq -n t10.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.237 0.265 0.275 0.223 
+
+Inference[0]: Time 13.240969 CAT-based likelihood -7700.707622, best rearrangement setting 20
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 0.979439 0.777638 1.184582 0.752506 0.850338 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -7504.478813 tree written to file /mnt/e/PhD Study/FromLinux/PhD_Study/Research/Simulated_Datasets/indelible_tests/height/h3.0/RAxML_result.t10.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7504.478813 .... 
+
+Final GAMMA-based Score of best tree -7485.440927
+
+Program execution info written to /mnt/e/PhD Study/FromLinux/PhD_Study/Research/Simulated_Datasets/indelible_tests/height/h3.0/RAxML_info.t10.rml
+Best-scoring ML tree written to: /mnt/e/PhD Study/FromLinux/PhD_Study/Research/Simulated_Datasets/indelible_tests/height/h3.0/RAxML_bestTree.t10.rml
+
+Overall execution time: 19.922524 secs or 0.005534 hours or 0.000231 days
+

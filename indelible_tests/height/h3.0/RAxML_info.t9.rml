@@ -1,0 +1,74 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 75 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 75
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -p 79190 -m GTRCAT -s t9.seq -n t9.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.292 0.245 0.187 0.276 
+
+Inference[0]: Time 10.129508 CAT-based likelihood -7180.433054, best rearrangement setting 10
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 0.786952 0.938486 0.619312 1.145363 0.761723 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -6975.672855 tree written to file /mnt/e/PhD Study/FromLinux/PhD_Study/Research/Simulated_Datasets/indelible_tests/height/h3.0/RAxML_result.t9.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -6975.672855 .... 
+
+Final GAMMA-based Score of best tree -6965.876400
+
+Program execution info written to /mnt/e/PhD Study/FromLinux/PhD_Study/Research/Simulated_Datasets/indelible_tests/height/h3.0/RAxML_info.t9.rml
+Best-scoring ML tree written to: /mnt/e/PhD Study/FromLinux/PhD_Study/Research/Simulated_Datasets/indelible_tests/height/h3.0/RAxML_bestTree.t9.rml
+
+Overall execution time: 18.022955 secs or 0.005006 hours or 0.000209 days
+
