@@ -1,0 +1,625 @@
+
+
+IMPORTANT WARNING: Sequences 444 and 190 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 325 and 172 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 455 and 107 are exactly identical
+
+IMPORTANT WARNING
+Found 3 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file t4.seq.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 75 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 75
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 31843 -m GTRCAT -s t4.seq -n t4.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.243 0.250 0.248 0.259 
+
+Inference[0]: Time 236.472954 CAT-based likelihood -40701.401150, best rearrangement setting 25
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -38958.464300 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_result.t4.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -38958.464300 .... 
+
+Final GAMMA-based Score of best tree -38886.575918
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_info.t4.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_bestTree.t4.rml
+
+Overall execution time: 294.707506 secs or 0.081863 hours or 0.003411 days
+
+
+
+IMPORTANT WARNING: Sequences 339 and 386 are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file t5.seq.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 85 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 85
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 55808 -m GTRCAT -s t5.seq -n t5.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.260 0.274 0.224 0.243 
+
+Inference[0]: Time 846.544097 CAT-based likelihood -44231.512579, best rearrangement setting 25
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -42655.452862 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_result.t5.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -42655.452862 .... 
+
+Final GAMMA-based Score of best tree -42516.204259
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_info.t5.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_bestTree.t5.rml
+
+Overall execution time: 913.173779 secs or 0.253659 hours or 0.010569 days
+
+
+
+IMPORTANT WARNING: Sequences 276 and 136 are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file t6.seq.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 76 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 76
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 79773 -m GTRCAT -s t6.seq -n t6.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.190 0.240 0.277 0.293 
+
+Inference[0]: Time 503.252375 CAT-based likelihood -37437.778684, best rearrangement setting 25
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -36097.912541 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_result.t6.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -36097.912541 .... 
+
+Final GAMMA-based Score of best tree -36043.403203
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_info.t6.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_bestTree.t6.rml
+
+Overall execution time: 566.825721 secs or 0.157452 hours or 0.006560 days
+
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 71 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 71
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 103738 -m GTRCAT -s t7.seq -n t7.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.226 0.304 0.234 0.237 
+
+Inference[0]: Time 1272.105711 CAT-based likelihood -42497.952484, best rearrangement setting 25
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -40568.627382 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_result.t7.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -40568.627382 .... 
+
+Final GAMMA-based Score of best tree -40469.649496
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_info.t7.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_bestTree.t7.rml
+
+Overall execution time: 1326.680216 secs or 0.368522 hours or 0.015355 days
+
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 82 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 82
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 127703 -m GTRCAT -s t8.seq -n t8.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.256 0.270 0.235 0.239 
+
+Inference[0]: Time 520.059916 CAT-based likelihood -45346.306444, best rearrangement setting 25
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -43500.595507 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_result.t8.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -43500.595507 .... 
+
+Final GAMMA-based Score of best tree -43408.097197
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_info.t8.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_bestTree.t8.rml
+
+Overall execution time: 578.388754 secs or 0.160664 hours or 0.006694 days
+
+
+
+IMPORTANT WARNING: Sequences 305 and 496 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 131 and 454 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 24 and 232 are exactly identical
+
+IMPORTANT WARNING
+Found 3 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file t9.seq.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 76 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 76
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 151668 -m GTRCAT -s t9.seq -n t9.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.253 0.281 0.219 0.246 
+
+Inference[0]: Time 1125.611614 CAT-based likelihood -40432.922602, best rearrangement setting 25
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -38709.632076 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_result.t9.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -38709.632076 .... 
+
+Final GAMMA-based Score of best tree -38630.172409
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_info.t9.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_bestTree.t9.rml
+
+Overall execution time: 1186.618810 secs or 0.329616 hours or 0.013734 days
+
+
+
+IMPORTANT WARNING: Sequences 228 and 94 are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file t10.seq.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 80 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 80
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 175633 -m GTRCAT -s t10.seq -n t10.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.260 0.193 0.269 0.278 
+
+Inference[0]: Time 1091.989149 CAT-based likelihood -44479.408603, best rearrangement setting 25
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -42828.265299 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_result.t10.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -42828.265299 .... 
+
+Final GAMMA-based Score of best tree -42760.822346
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_info.t10.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T600/RAxML_bestTree.t10.rml
+
+Overall execution time: 1161.612765 secs or 0.322670 hours or 0.013445 days
+
+JobId=4954658 JobName=rax2.sh
+   UserId=alaminmd(6002194) GroupId=cse(2010) MCS_label=N/A
+   Priority=62928 Nice=0 Account=liulab QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=01:40:32 TimeLimit=05:00:00 TimeMin=N/A
+   SubmitTime=2020-10-13T12:55:49 EligibleTime=2020-10-13T12:55:49
+   AccrueTime=2020-10-13T12:55:49
+   StartTime=2020-10-13T12:55:49 EndTime=2020-10-13T17:55:49 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2020-10-13T12:55:49
+   Partition=liulab AllocNode:Sid=dev-amd20-v100:94398
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=css-075
+   BatchHost=css-075
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=N/A ReqB:S:C:T=0:0:*:*
+   TRES=cpu=1,mem=750M,node=1,billing=114
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryCPU=750M MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18|amr|nvf] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/ufs18/home-008/alaminmd/research/simulation/taxa/rax2.sh
+   WorkDir=/mnt/ufs18/home-008/alaminmd/research/simulation/taxa
+   Comment=stdout=/mnt/ufs18/home-008/alaminmd/research/simulation/taxa/slurm-4954658.out 
+   StdErr=/mnt/ufs18/home-008/alaminmd/research/simulation/taxa/slurm-4954658.out
+   StdIn=/dev/null
+   StdOut=/mnt/ufs18/home-008/alaminmd/research/simulation/taxa/slurm-4954658.out
+   Power=
+
+
+SLURM Job ID: 4954658
+WrkDir=/mnt/ufs18/home-008/alaminmd/research/simulation/taxa
+===================================================================================
+          JobID |             4954658 |       4954658.batch |      4954658.extern |
+        JobName |             rax2.sh |               batch |              extern |
+           User |            alaminmd |                     |                     |
+       NodeList |             css-075 |             css-075 |             css-075 |
+         NNodes |                   1 |                   1 |                   1 |
+         NTasks |                     |                   1 |                   1 |
+          NCPUS |                   1 |                   1 |                   1 |
+        ReqGRES |                     |                     |                     |
+         ReqMem |               750Mc |               750Mc |               750Mc |
+      Timelimit |            05:00:00 |                     |                     |
+        Elapsed |            01:40:32 |            01:40:32 |            01:40:32 |
+       TotalCPU |            00:00:00 |            01:40:25 |            00:00:00 |
+     AveCPULoad |                     |             0.99884 |                     |
+         MaxRSS |                     |              36732K |                     |
+      MaxVMSize |                     |             162204K |                     |
+          Start | 2020-10-13T12:55:49 | 2020-10-13T12:55:49 | 2020-10-13T12:55:49 |
+            End |             Unknown |             Unknown |             Unknown |
+       ExitCode |                 0:0 |                 0:0 |                 0:0 |
+          State |             RUNNING |             RUNNING |             RUNNING |
+===================================================================================

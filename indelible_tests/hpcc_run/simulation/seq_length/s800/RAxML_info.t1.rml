@@ -1,0 +1,74 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 549 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 549
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 252127 -m GTRCAT -s t1.seq -n t1.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.243 0.255 0.253 0.248 
+
+Inference[0]: Time 41.695117 CAT-based likelihood -51219.029009, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.094181 0.975445 1.081244 0.949477 0.966043 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -52839.476357 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/seq_length/s800/RAxML_result.t1.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -52839.476357 .... 
+
+Final GAMMA-based Score of best tree -52839.476357
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/seq_length/s800/RAxML_info.t1.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/seq_length/s800/RAxML_bestTree.t1.rml
+
+Overall execution time: 105.079247 secs or 0.029189 hours or 0.001216 days
+

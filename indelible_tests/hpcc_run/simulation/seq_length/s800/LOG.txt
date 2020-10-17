@@ -1,0 +1,93 @@
+********************************************************************************
+INDELible V1.03 by Will Fletcher : Simulation began at: Tue Oct 13 08:26:18 2020
+********************************************************************************
+
+  * Block 1 was completed in 1.95312 seconds.
+
+********************************************************************************
+
+  * Simulation completed. Whole batch took: 1.95312 seconds.
+
+INDELible V1.03 Simulations completed at: Tue Oct 13 08:26:20 2020
+
+********************************************************************************
+
+
+ Original Control File 
+
+-----------------------
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//  INDELible V1.03 control file - trees.txt                                       //
+//                                                                                 //
+//      How to define user trees and how to generate random trees...               //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+[TYPE] NUCLEOTIDE 1	//  nucleotide simulation using algorithm from method 1
+
+
+[MODEL] mymodel  
+[submodel]      JC  
+[rates]         0.25 0.5 0     
+
+ 
+    //  Random rooted & unrooted trees can also be created by INDELible. 
+   //  A different tree will be generated for each replicate.
+   //  Explanation of these commands follow the examples...
+
+
+[TREE] tree
+  [rooted] 100 6.7 2.5 0.234 0.31     // ntaxa birth death sample mut
+  [treedepth] 2.0
+
+
+
+/*
+  * Random trees always have taxa names that are numbers. 
+    e.g. (1:0.1,2:0.1,(3:0.1,4:0.1):0.1);
+
+  * tree1 and tree2 will be unrooted random trees.
+  * tree3 and tree4 will be rooted random trees. 
+
+  * Every time that INDELible is run tree2 will produce the same sequence 
+    of random trees, until the number after the [seed] command is changed. 
+  * The others (tree1, tree3 and tree4) will always produce different trees.
+  * Please note that the [seed] command overrules the [randomseed] 
+    command from a [SETTINGS] block, for a random tree.
+
+  * tree4 will produce random trees that are always rescaled to have a tree 
+    length of 8, and tree3 will produce random trees that are always rescaled 
+    to have a depth (root to tip) of 0.4, whilst the other two (tree1 and 
+    tree2) will always produce random trees with different tree lengths/depths.
+
+  * The numbers that come after the [unrooted] and [rooted] commands are 
+    the same in both cases.  The first number is the number of taxa 
+    (10 for tree1 and tree2, 15 for tree3 and tree4).
+  * The next  four are the parameters used in the birth-death process to 
+    create the random trees. In order, from left to right, these are the 
+    birth-rate, death-rate, sampling fraction and mutation rate. 
+    Further details on these parameters can be found in this paper: 
+    http://abacus.gene.ucl.ac.uk/ziheng/pdf/1997YangRannalaMBEv14p717.pdf
+
+  * Trees (random or user) that are used during the simulation will be output 
+    by INDELible in a file like this.
+
+  * One last point to remember about random trees is that they CANNOT be 
+    used when you want the evolutionary model to be permitted to change 
+    over the tree. i.e. they CANNOT be used with [BRANCHES] blocks.
+   
+*/
+
+
+
+[PARTITIONS] Pname  [tree mymodel 800]   // tree t3, model mymodel, root length 1000
+
+
+
+ 
+[EVOLVE]     Pname  10  seqfile.txt     // 10 replicates generated from partition Pname1
+             

@@ -1,0 +1,74 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 685 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 685
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -p 80523 -m GTRCAT -s t2.seq -n t2.rml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.244 0.245 0.254 0.258 
+
+Inference[0]: Time 29.438967 CAT-based likelihood -59641.565262, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 0.994033 1.007803 0.994321 0.959875 1.013500 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -61886.542643 tree written to file /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T100/RAxML_result.t2.rml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -61886.542643 .... 
+
+Final GAMMA-based Score of best tree -61886.370394
+
+Program execution info written to /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T100/RAxML_info.t2.rml
+Best-scoring ML tree written to: /mnt/ufs18/home-008/alaminmd/research/simulation/taxa/T100/RAxML_bestTree.t2.rml
+
+Overall execution time: 91.203108 secs or 0.025334 hours or 0.001056 days
+
